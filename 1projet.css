@@ -1,0 +1,92 @@
+body {
+font-weight: normal;
+font-family: sans-serif;
+margin-top:10em;
+margin-bottom:10em;
+margin-right:10em;
+margin-left:10em;
+}
+
+.image{
+margin-left:-5em;
+
+}
+
+h1 {
+font-weight: bold;
+font-family:  Arial,sans-serif;
+font-variant: small-caps;
+}
+
+div.scrollmenu {  /* menu horizontal design box */
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {  /* menu horizontal design texte */
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {  /* passe en couleur vert lors d'un mouseover */
+    background-color: #9ACD32		;
+}
+
+
+div.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.fieldset {
+font-weight: normal;
+font-family: sans-serif;
+margin-top:0em;
+margin-bottom:10em;
+margin-right:10em;
+margin-left:10em;
+}
+
+#bouton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+
+.boutonStation{
+  background-color: #008CBA; /* Green */
+  margin-left:+9.1em;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
